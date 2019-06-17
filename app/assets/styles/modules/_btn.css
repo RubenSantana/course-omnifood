@@ -1,0 +1,44 @@
+.btn {
+
+    &:link, &:visited {
+        display: inline-block;
+        padding: 10px 30px;
+        font-weight: 300;
+        text-decoration: none;
+        border: 1px solid $mainOrange;
+        border-radius: 200px;
+        color: #fff;
+        transition: background-color .2s, border .2s, color .2s;
+    }
+
+    &:hover, &:active {
+        background-color: $darkOrange;
+    }
+
+  &--full {
+
+      margin-right: 15px;
+
+      &:link, &:visited {
+          background-color: $mainOrange;
+      }
+
+      &:hover, &:active {
+          background-color: $darkOrange;
+          border: 1px solid $darkOrange;
+      }
+  }
+
+  &--ghost {
+
+      &:link, &:visited {
+          color: $mainOrange;
+      }
+
+      &:hover, &:active {
+          background-color: $darkOrange;
+          border: 1px solid $darkOrange;
+          color: #fff;
+      }
+  }
+}
