@@ -1,0 +1,64 @@
+.steps-section {
+
+    background-color: #f4f4f4;
+
+    h2 {
+        font-weight: 300;
+        font-size: 180%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        text-align: center;
+        margin-bottom: 30px;
+
+        &:after {
+            display: block;
+            height: 2px;
+            background-color: $mainOrange;
+            content: "";
+            width: 100px;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+
+    &__box {
+
+        &:first-child {
+            text-align: right;
+            padding-right: 3%;
+            margin-top: 30px;
+        }
+
+        &:last-child {
+            padding-left: 3%;
+            margin-top: 70px;
+        }
+    }
+
+    &__app-screen {
+        width: 40%;
+    }
+
+    &__works-step {
+        margin-bottom: 50px;
+
+        div {
+            color: $mainOrange;
+            border: 2px solid $mainOrange;
+            display: inline-block;
+            border-radius: 50%;
+            height: 55px;
+            width: 55px;
+            text-align: center;
+            padding: 5px;
+            float: left;
+            font-size: 150%;
+            margin-right: 25px;
+        }
+
+        &:last-of-type {
+            margin-bottom: 80px;
+        }
+    }
+}

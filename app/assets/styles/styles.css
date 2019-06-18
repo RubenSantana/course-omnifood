@@ -2,6 +2,7 @@
 @import "base/_global.css";
 @import "base/_variables.css";
 @import "base/_mixins.css";
+@import "base/_clearfix.css";
 @import "modules/_grid.css";
 @import "modules/_row.css";
 @import "modules/_site-header.css";
@@ -10,3 +11,4 @@
 @import "modules/_features-section.css";
 @import "modules/_icon.css";
 @import "modules/_meals-section.css";
+@import "modules/_steps-section.css";
