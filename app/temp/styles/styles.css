@@ -370,6 +370,7 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+<<<<<<< HEAD
 <<<<<<< head .row {
   max-width: 1140px;
   margin: 0 auto;
@@ -389,23 +390,12 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
-}
-
-.hero-text-box {
-  position: absolute;
-  width: 1140px;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-h1 {
-  margin-top: 0;
-}
-
 =======
->>>>>>> header
+section {
+  padding: 80px 0;
+>>>>>>> features-section
+}
+
 /*  SECTIONS  ============================================================================= */
 
 .section {
@@ -1186,4 +1176,54 @@ header {
 .main-nav__list li a:hover,
 .main-nav__list li a:active {
   border-bottom: 2px solid #e67e22;
+}
+
+.features-section h2 {
+  font-weight: 300;
+  font-size: 180%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.features-section h2:after {
+  display: block;
+  height: 2px;
+  background-color: #e67e22;
+  content: "";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.features-section__long-copyright {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.features-section__box {
+  padding: 1%;
+}
+
+.features-section__box p {
+  font-size: 90%;
+  line-height: 145%;
+}
+
+.features-section h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+.icon--big {
+  font-size: 350%;
+  display: block;
+  color: #e67e22;
+  margin-bottom: 10px;
 }
