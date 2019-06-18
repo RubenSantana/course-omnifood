@@ -26,15 +26,6 @@
         margin-bottom: 30px;
     }
 
-    &__box {
-        padding: 1%;
-
-        p {
-            font-size: 90%;
-            line-height: 145%;
-        }
-    }
-
     h3 {
         font-weight: 300;
         text-transform: uppercase;

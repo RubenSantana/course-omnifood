@@ -1,0 +1,14 @@
+.box {
+  padding: 1%;
+
+  p {
+    font-size: 90%;
+    line-height: 145%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+}

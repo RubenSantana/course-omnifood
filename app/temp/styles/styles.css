@@ -1174,6 +1174,21 @@ header {
   border-bottom: 2px solid #e67e22;
 }
 
+.box {
+  padding: 1%;
+}
+
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
 .features-section h2 {
   font-weight: 300;
   font-size: 180%;
@@ -1201,15 +1216,6 @@ header {
   margin-bottom: 30px;
 }
 
-.features-section__box {
-  padding: 1%;
-}
-
-.features-section__box p {
-  font-size: 90%;
-  line-height: 145%;
-}
-
 .features-section h3 {
   font-weight: 300;
   text-transform: uppercase;
@@ -1223,6 +1229,20 @@ header {
   display: block;
   color: #e67e22;
   margin-bottom: 10px;
+}
+
+.icon--small {
+  font-size: 120%;
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #e67e22;
+  margin-right: 10px;
+
+  /* align text and icons */
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
 }
 
 .meals-section {
@@ -1324,4 +1344,52 @@ header {
 
 .steps-section__works-step:last-of-type {
   margin-bottom: 80px;
+}
+
+.cities-section h2 {
+  font-weight: 300;
+  font-size: 180%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cities-section h2:after {
+  display: block;
+  height: 2px;
+  background-color: #e67e22;
+  content: "";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.cities-section h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+.city-feature {
+  margin-bottom: 5px;
+}
+
+.city-feature a:link,
+.city-feature a:visited {
+  color: #e67e22;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  -webkit-transition: border-bottom 0.2s, color 0.2s;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+.city-feature a:hover,
+.city-feature a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
 }
