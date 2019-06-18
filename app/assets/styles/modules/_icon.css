@@ -1,0 +1,8 @@
+.icon {
+  &--big {
+    font-size: 350%;
+    display: block;
+    color: $mainOrange;
+    margin-bottom: 10px;
+  }
+}
