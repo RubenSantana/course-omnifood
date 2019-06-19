@@ -1,6 +1,6 @@
 .steps-section {
 
-    background-color: #f4f4f4;
+    background-color: $subtleGray;
 
     h2 {
         font-weight: 300;

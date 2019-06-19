@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d49bce6e-0c69-4eb2-94d9-8a17ca42abee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/styles/modules/_site-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_site-header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/styles/base/_variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/base/_variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/styles/modules/_steps-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_steps-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/styles/modules/_testimonials-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_testimonials-section.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/temp/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/temp/styles/styles.css" afterDir="false" />
@@ -21,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="337" selection-start-line="337" selection-end-line="337" />
+            <state relative-caret-position="70">
+              <caret line="409" column="46" selection-start-line="409" selection-start-column="46" selection-end-line="409" selection-end-column="46" />
               <folding>
                 <element signature="e#1354#1361#0" expanded="true" />
                 <element signature="e#5418#5425#0" expanded="true" />
@@ -32,10 +34,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_testimonials-section.css">
+        <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_plans-section.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="121">
+              <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -59,6 +61,8 @@
       <find>row</find>
       <find>btn</find>
       <find>box</find>
+      <find>f4f4</find>
+      <find>#f4f4</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -78,22 +82,23 @@
         <option value="$PROJECT_DIR$/gulp/tasks/styles.js" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_large-hero.css" />
         <option value="$PROJECT_DIR$/app/temp/styles/styles.css" />
-        <option value="$PROJECT_DIR$/app/assets/styles/base/_variables.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_row.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_main-nav.css" />
-        <option value="$PROJECT_DIR$/app/assets/styles/base/_global.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_meals-section.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_btn.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/base/_clearfix.css" />
-        <option value="$PROJECT_DIR$/app/assets/styles/modules/_steps-section.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_features-section.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_box.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_icon.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_cities-section.css" />
-        <option value="$PROJECT_DIR$/app/assets/styles/styles.css" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_site-header.css" />
         <option value="$PROJECT_DIR$/app/assets/styles/modules/_testimonials-section.css" />
+        <option value="$PROJECT_DIR$/app/assets/styles/styles.css" />
+        <option value="$PROJECT_DIR$/app/assets/styles/base/_variables.css" />
+        <option value="$PROJECT_DIR$/app/assets/styles/modules/_steps-section.css" />
+        <option value="$PROJECT_DIR$/app/assets/styles/base/_global.css" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/assets/styles/modules/_plans-section.css" />
       </list>
     </option>
   </component>
@@ -214,7 +219,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57375000" />
+    <option name="totallyTimeSpent" value="62542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -330,13 +335,6 @@
     <entry file="file://$PROJECT_DIR$/../course-travel-site/app/assets/styles/modules/_large-hero.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/base/_variables.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/styles/base/_clearfix.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -348,20 +346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_meals-section.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_steps-section.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -379,10 +363,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_site-header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_meals-section.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_features-section.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_testimonials-section.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_cities-section.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+        <state relative-caret-position="612">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/base/_variables.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -393,38 +412,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/styles.css">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_features-section.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="34" selection-end-column="5" />
-        </state>
+        <state relative-caret-position="-6477" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/styles/base/_global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_site-header.css">
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_steps-section.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="-170">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="337" selection-start-line="337" selection-end-line="337" />
+        <state relative-caret-position="70">
+          <caret line="409" column="46" selection-start-line="409" selection-start-column="46" selection-end-line="409" selection-end-column="46" />
           <folding>
             <element signature="e#1354#1361#0" expanded="true" />
             <element signature="e#5418#5425#0" expanded="true" />
@@ -432,10 +449,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_testimonials-section.css">
+    <entry file="file://$PROJECT_DIR$/app/assets/styles/modules/_plans-section.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="121">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
         </state>
       </provider>
     </entry>
