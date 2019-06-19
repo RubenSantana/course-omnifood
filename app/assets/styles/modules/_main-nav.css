@@ -1,4 +1,9 @@
 .main-nav {
+
+  @mixin atSmall {
+    display: none;
+  }
+
   &__logo {
     height: 100px;
     width: auto;

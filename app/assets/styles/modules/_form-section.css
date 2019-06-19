@@ -24,6 +24,14 @@
     width: 60%;
     margin: 0 auto;
 
+    @mixin atMedium {
+        width: 80%;
+    }
+
+    @mixin atMinimum {
+        width: 100%;
+    }
+
     input[type=text], input[type=email], select, textarea {
         width: 100%;
         padding: 7px;

@@ -24,24 +24,52 @@
 
     &__box {
 
+        @mixin atMedium {
+            margin-top: 10px;
+        }
+
         &:first-child {
             text-align: right;
             padding-right: 3%;
             margin-top: 30px;
+
+            @mixin atSmall {
+                text-align: center;
+            }
         }
 
         &:last-child {
             padding-left: 3%;
             margin-top: 70px;
+
+            @mixin atMedium {
+                margin-top: 10px;
+            }
         }
     }
 
     &__app-screen {
         width: 40%;
+
+        @mixin atMedium {
+            width: 50%;
+        }
+
+        @mixin atSmall {
+            width: 40%;
+        }
     }
 
     &__works-step {
         margin-bottom: 50px;
+
+        @mixin atMedium {
+            margin-bottom: 40px;
+        }
+
+        @mixin atSmall {
+            margin-bottom: 20px;
+        }
 
         div {
             color: $mainOrange;
@@ -55,10 +83,26 @@
             float: left;
             font-size: 150%;
             margin-right: 25px;
+
+            @mixin atSmall {
+                height: 35px;
+                width: 35px;
+                margin-right: 15px;
+                padding: 4px;
+                font-size: 120%;
+            }
         }
 
         &:last-of-type {
             margin-bottom: 80px;
+
+            @mixin atMedium {
+                margin-bottom: 60px;
+            }
+
+            @mixin atSmall {
+                margin-bottom: 20px;
+            }
         }
     }
 }

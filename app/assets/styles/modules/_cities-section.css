@@ -30,6 +30,10 @@
 
 .city-feature {
     margin-bottom: 5px;
+
+    @mixin atMedium {
+        font-size: 90%;
+    }
     
     a:link, a:visited {
         color: $mainOrange;

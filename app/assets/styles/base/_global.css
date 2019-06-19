@@ -4,15 +4,51 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: #fff;
   color: #555;
   font-family: "Lato", "Arial", sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+body {
+  @mixin atMedium {
+    font-size: 18px;
+  }
+
+  @mixin atSmall {
+    font-size: 16px;
+  }
 }
 
 section {
   padding: 80px 0;
+
+  @mixin atMedium {
+    padding: 60px 0;
+  }
+
+  @mixin atSmall {
+    padding: 30px 0;
+  }
+
+  @mixin atMinimum {
+    padding: 25px 0;
+  }
+}
+
+h1 {
+  @mixin atSmall {
+    font-size: 180%;
+  }
+}
+
+h2 {
+  @mixin atSmall {
+    font-size: 150%;
+  }
 }
