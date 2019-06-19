@@ -1,0 +1,62 @@
+.form-section {
+    h2 {
+        font-weight: 300;
+        font-size: 180%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        text-align: center;
+        margin-bottom: 30px;
+
+        &:after {
+            display: block;
+            height: 2px;
+            background-color: $mainOrange;
+            content: "";
+            width: 100px;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+
+    input[type=text], input[type=email], select, textarea {
+        width: 100%;
+        padding: 7px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+    }
+
+    text-area {
+        height: 100px;
+    }
+}
+
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border: 1px solid $mainOrange;
+    border-radius: 200px;
+    color: #fff;
+    transition: background-color .2s, border .2s, color .2s;
+    margin-right: 15px;
+    background-color: $mainOrange;
+
+    &:hover, &:active {
+        background-color: $darkOrange;
+    }
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {
+    outline: none;
+}
